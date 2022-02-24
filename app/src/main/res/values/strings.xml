@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">DominosAppTPV</string>
+    <string name="titulo">Introduce nº de pedido</string>
+    <string name="hint_input">012345678901234567890123456789</string>
+    <string name="boton_primario">Confirmar</string>
+    <string name="boton_secundario">Imprimir</string>
+    <string name="boton_link">¿Quieres realizar una devolución?</string>
+
+    <string name="titulo_importe">Importe del pedido</string>
+    <string name="titulo_entrega">Escoge método de entrega de ticket</string>
+
+    <string name="confirmar_importe">Confirmar importe del pedido</string>
+    <string name="confirmar_edicion">Confirmar edición</string>
+    <string name="cambiar_importe">Cambiar importe</string>
+    <string name="cancelar_edicion">Cancelar edición</string>
+    <string name="imprimir">Imprimir</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS</string>
+    <string name="no_entregar_ticket">No entregar ticket</string>
+
+    <string name="eur">€</string>
 </resources>
