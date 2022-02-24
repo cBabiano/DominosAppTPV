@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:paddingVertical="14dp"
+    android:paddingHorizontal="16dp"
+    android:layout_gravity="center"
+    android:clipToOutline="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+
+    android:background="#00000000"
+
+    android:text="@string/boton_link"
+    android:textAppearance="@style/boton_link"
+
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:lineSpacingExtra="4sp"
+    android:gravity="center_horizontal|center_vertical">
+
+
+</Button>

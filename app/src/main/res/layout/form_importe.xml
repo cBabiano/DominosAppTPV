@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_base"
+    android:orientation="vertical">
+
+    <include layout="@layout/header"/>
+
+    <include layout="@layout/input_importe"
+        android:id="@+id/inImporte"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <include layout="@layout/boton_primario"
+        android:id="@+id/btnImporte"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="8dp"
+        android:layout_height="44dp"
+        android:layout_width="match_parent"/>
+
+    <include layout="@layout/boton_link"
+        android:id="@+id/link_importe"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="22dp"
+        android:layout_height="46dp"
+        android:layout_width="match_parent"/>
+</LinearLayout>

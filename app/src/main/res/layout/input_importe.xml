@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:id="@+id/lyInImporte"
+    android:background="@drawable/input_importe_bg"
+    android:gravity="center_horizontal|center_vertical">
+
+    <EditText
+        android:id="@+id/importe"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:text="36,50"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:digits="0123456789.,"
+        android:layout_marginHorizontal="15dp"
+        android:textColor="@color/negro"
+        android:background="#00000000"
+        android:textAppearance="@style/input_importe"/>
+
+    <TextView
+        android:id="@+id/moneda"
+        android:layout_width="32dp"
+        android:layout_height="84dp"
+        android:layout_marginRight="37.5dp"
+        android:text="@string/eur"
+        android:textAppearance="@style/input_importe"/>
+</LinearLayout>

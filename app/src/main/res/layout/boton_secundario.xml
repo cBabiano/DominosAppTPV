@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@drawable/boton_secundario_bg"
+    android:layout_gravity="center"
+
+    android:text="@string/boton_secundario"
+
+    android:textAppearance="@style/boton_secundario"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:lineSpacingExtra="4sp"
+    android:gravity="center_horizontal|center_vertical">
+</Button>

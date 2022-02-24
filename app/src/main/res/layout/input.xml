@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:inputType="number"
+        android:textColor="@color/negro"
+        android:background="@drawable/input_bg"
+        android:textAppearance="@style/input_text"
+        android:textColorHint="@color/gris_hint"
+        android:hint="@string/hint_input"
+        android:padding="12dp"
+        />
+</FrameLayout>
